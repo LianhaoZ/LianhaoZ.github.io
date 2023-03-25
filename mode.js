@@ -19,18 +19,7 @@ function dark() {
     const email = document.getElementById("email");
     email.classList.toggle("email-dark");
   
-    // const input = document.getElementById("userIn");
-    // input.classList.toggle("user-input-dark");
-  
-    // const chatContain = document.getElementsByClassName("chat-contain");
-    // for (var i = 0; i < chatContain.length; i++) {
-    //   chatContain[i].classList.toggle("chat-contain-dark");
-    // }
-  
-    // const chatting = document.getElementsByClassName("chat-item");
-    // for (var i = 0; i < chatting.length; i++) {
-    //   chatting[i].classList.toggle("chat-item-dark");
-    // }
+     
   
     const certs = document.getElementsByClassName("xp-icon");
     for (var i = 0; i < certs.length; i++) {

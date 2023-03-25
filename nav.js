@@ -1,6 +1,6 @@
 const projs = document.getElementById("p-list");
 const countDivs = projs.children.length;
-const count = countDivs - 1;
+const count = countDivs;
 // console.log(count);
 
 const showcase = document.getElementById("proj-no");
@@ -20,11 +20,4 @@ function toPort() {
   document.getElementById("portfolio").style.display = "flex";
   document.getElementById("bioID").style.display = "none";
 } 
-
-// function chat() {
-//   const c = document.getElementsByClassName("chat-contain");
-//   // c.classList.toggle("chatSee");
-//   for (var i = 0; i < c.length; i++) {
-//     c[i].classList.toggle("chatSee");
-//   }
-// }
+ 

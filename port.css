@@ -112,7 +112,7 @@
     margin-bottom: 0.3rem;
     font-size: 1.15rem;
     overflow-wrap: break-word;
-    hyphens: manual;
+    hyphens: manual; 
   }
   
   .hide-port {
